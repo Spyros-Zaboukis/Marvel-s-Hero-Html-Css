@@ -1,20 +1,72 @@
-a{
-    color:black;
+/**----- Réglages de base du document -----**/
+
+*{
+    margin: 0px;
 }
 
-em{
-    color: #474f77;
+body{
+    background-color: #1F2039;
 }
+
+
+
+/**----- Les sections -----**/
+
+.navBar{
+    background-color: white;
+    padding-left: 3em;
+    padding-top: 1.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+
+.logo{
+    width: 10em;
+}
+
+main{
+    padding: 5em;
+}
+
+.histoire{
+    padding: 2em;
+
+}
+
+.footer{
+    background-color: white;
+    padding-left: 3em;
+    padding-top: 1.5em;
+}
+
+/**----- Titre - Paragraphes - Listes - em -----**/ 
 
 h1{
     font-family: Goldman, sans-serif;
     color: #820707;
+    font-size: 3em;
+}
+
+h2{
+    font-family: Goldman, sans-serif;
+    color: #820707;
+    font-size: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 p{
     font-family: Manrope, sans-serif;
     font-size: 1.1em;
     color: #F9F8FF;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
 }
 
 li{
@@ -22,23 +74,27 @@ li{
     font-size: 1em;
 }
 
+.competences{
+    border : 1px #8e86b5 solid ;
+    color : white;
+}
+
+
+em{
+    color: #474f77;
+}
+
+/**----- Liens -----**/
+
 a{
     text-decoration: none;
     font-size: 1em;
     font-family: Manrope, sans-serif;
     color : #696484;
-
 }
+
 a:hover{
     color: #8788BA;
-}
-
-.navBar, .footer{
-    background-color: white;
-}
-
-body{
-    background-color: #1F2039;
 }
 
 .externalLink{
@@ -52,12 +108,35 @@ body{
     color:#8788BA;
 }
 
-.competences{
-    border : 1px #8e86b5 solid ;
-    color : white;
+.imgLink:hover{
+    opacity: 0.5;
+}
+
+/**----- Section bio Iron Man -----**/
+
+.illustration{
+    width: 20em;
+    border-radius: 1.5em;
+}
+
+.sectionIron{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.IronTxt{
+    width: 40%;
 }
 
 
-.imgLink:hover{
-    opacity: 0.5;
+
+/**----- Images Galleries ------**/
+
+.imgGallery{
+    width: 20em;
+} 
+
+.sectionGallery{
+text-align: center;
 }

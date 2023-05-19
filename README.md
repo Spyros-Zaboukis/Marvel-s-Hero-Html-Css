@@ -10,3 +10,8 @@ Technologie utilisée :
 
 Les graphiques des polices ont été réalisés avec Inkscape.
 Les re-dimensions de photos sont effectuées avec Gimp.
+
+Les polices sont importés depuis Google Font.
+La définition des valeur est en "em".
+
+L'utilisation de flexbox et de Grid est utilisée pour le design.
