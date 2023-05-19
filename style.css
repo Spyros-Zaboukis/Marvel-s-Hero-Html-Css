@@ -26,6 +26,11 @@ a{
     text-decoration: none;
     font-size: 1em;
     font-family: Manrope, sans-serif;
+    color : #696484;
+
+}
+a:hover{
+    color: #8788BA;
 }
 
 .navBar, .footer{
@@ -39,4 +44,20 @@ body{
 .externalLink{
     color : #8E86B5;
     text-transform: uppercase;
+    border : 1px black solid;
+    border-radius: 2em;
+    text-align: center;
+}
+.externalLink:hover{
+    color:#8788BA;
+}
+
+.competences{
+    border : 1px #8e86b5 solid ;
+    color : white;
+}
+
+
+.imgLink:hover{
+    opacity: 0.5;
 }
