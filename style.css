@@ -25,7 +25,10 @@ nav{
     padding-right: 4em;
     padding-bottom: 2em;
 }
-
+.photonav{
+    width: 3em;
+    margin-right: 1em;
+}
 .logo{
     width: 10em;
 }
