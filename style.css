@@ -39,12 +39,24 @@ main{
 
 }
 
-.footer{
+footer{
     background-color: white;
-    padding-left: 3em;
-    padding-top: 1.5em;
 }
 
+.imgLink{
+    margin-left: 3em;
+    padding-top: 2em;
+}
+.imgLinkFooter{
+    display: flex;
+    justify-content: end;
+    padding-right: 4em;
+    gap: 2em;
+}
+
+.socialIcon{
+    width: 4em;
+}
 /**----- Titre - Paragraphes - Listes - em -----**/ 
 
 h1{
@@ -111,6 +123,7 @@ a:hover{
 .imgLink:hover{
     opacity: 0.5;
 }
+
 
 /**----- Section bio Iron Man -----**/
 
