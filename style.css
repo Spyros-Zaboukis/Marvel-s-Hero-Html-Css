@@ -8,8 +8,6 @@ body{
     background-color: #1F2039;
 }
 
-
-
 /**----- Les sections -----**/
 
 .navBar{
@@ -118,6 +116,8 @@ a:hover{
     border : 1px black solid;
     border-radius: 2em;
     text-align: center;
+    display: block;
+    width: 25em;
 }
 .externalLink:hover{
     color:#8788BA;
@@ -155,4 +155,49 @@ a:hover{
 
 .sectionGallery{
 text-align: center;
+}
+
+/**----- Gallerie des photos portraits et paysages -----**/
+
+.paysage{
+    width: 25em;
+    height: 15em;
+}
+
+h1{
+    text-align: center;
+}
+
+.photoPaysage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    position: relative;
+}
+
+
+.photoPortrait{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.portrait{
+    width: 25em;
+    height: 35em;
+}
+
+.portrait:hover{
+    background-color: black;
+    width: 25em;
+    height: 35em;
+}
+.image-paysage:hover{
+    background-color: black;
+    opacity: 0.2;
+    width: 25em;
+    height: 15em;
+}
+.image-paysage{
+    display: inline-block;
 }
