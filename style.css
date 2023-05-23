@@ -201,3 +201,93 @@ h1{
 .image-paysage{
     display: inline-block;
 }
+
+
+/**----- Tableau des goodies -----**/
+
+table{
+    margin: auto;
+    color: #F9F8FF;
+}
+
+tr, td, th{
+    border : 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    color : white;
+}
+
+caption 
+{
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 3em;
+}
+
+
+form{
+    color : white;
+    border: 1px solid wheat;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-radius: 3em;
+}
+
+.mission{
+    text-align: center;
+    text-transform: uppercase;
+    color : rgb(159, 0, 3);
+    font-size: 2em;
+    margin-top: 3em;
+}
+
+input{
+    padding: 1em;
+    margin-bottom: 1.2em;
+    margin-top: 1em;
+}
+
+/**----- DISIGN MOBILE ------**/
+
+
+@media screen and (max-width : 1200px) {
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 1em;
+        }
+
+        h1, h2, .mission{
+            text-align: center;
+            font-size: 2em;
+        }
+    .sectionIron{
+        display: flex;
+        flex-direction: column;
+        width: 40em;
+    }
+
+    .illustration{
+        margin: 0.4em;
+        width: 15em;
+    }
+    .imgGallery{
+        width: 14em;
+    }
+    form{
+        width: 16em;
+        text-align: center;
+    }
+    footer{
+        width: 30em;
+    }
+}
