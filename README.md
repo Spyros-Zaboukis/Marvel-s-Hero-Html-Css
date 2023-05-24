@@ -1,10 +1,12 @@
 ## Marvel Héro's
 
-![Illustration du site web](./img/info1.png)
-![Illustration du site web](./img/info2.png)
+
 ![Illustration du site web](./img/info3.png)
 ![Illustration du site web](./img/info4.png)
 
+
+Version mobile
+![Illustration du site web](./img/info1.png)[Illustration du site web](./img/info2.png)
 Technologie utilisée : 
 
 1. Utilisation de la sémantique html de base.
