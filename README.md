@@ -1,9 +1,9 @@
 ## Marvel Héro's
 
-![Illustration du site web](./img/info1.png.png)
-![Illustration du site web](./img/info2.png.png)
-![Illustration du site web](./img/info3.png.png)
-![Illustration du site web](./img/info4.png.png)
+![Illustration du site web](./img/info1.png)
+![Illustration du site web](./img/info2.png)
+![Illustration du site web](./img/info3.png)
+![Illustration du site web](./img/info4.png)
 
 Technologie utilisée : 
 
